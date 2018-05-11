@@ -1,0 +1,54 @@
+td{
+    padding: 15px;
+}
+
+img{
+    height: 199px;
+    width: 210px;
+    display: none;
+    position: relative;
+    z-index: 1;
+}
+
+.slide{
+    height: 199px;
+    width: 210px;
+    display: block;
+}
+
+#backgroundWriting{
+    font-size: 150px;
+    position: fixed;
+    text-align: center;
+    z-index: 0;
+    top: 150px;
+    color: white;
+}
+
+#allImg {
+    position: relative;
+
+}
+
+body{
+    background-color: darkred;
+}
+
+#moreInfo{
+    border-radius: 20px;
+    height: 90px;
+    width: 500px;
+    font-size: 40px;
+    background-color: darkgrey;
+    left: 450px;
+    top: 100px;
+    position: relative;
+}
+
+#credit{
+    color: darkgrey;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    margin-bottom: 100px;
+}

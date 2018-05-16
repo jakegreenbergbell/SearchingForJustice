@@ -2,12 +2,38 @@ td{
     padding: 15px;
 }
 
+#bioTable{
+    display: none;
+    z-index: 3;
+    background-color: white;
+    position: fixed;
+    top: 50px;
+    text-align: center;
+    width: 700px;
+    left: 350px;
+    padding: 0px;
+}
+#mask{
+    height: 100%;
+    width: 100%;
+    background-color:grey;
+    opacity: .75;
+    z-index: 1;
+    display:none;
+    position: fixed;
+}
+
 img{
     height: 199px;
-    width: 210px;
+    width: 206px;
     display: none;
     position: relative;
-    z-index: 1;
+    z-index: 0;
+}
+
+th{
+    width: 60px;
+    padding-left: 40px;
 }
 
 .slide{
@@ -16,12 +42,21 @@ img{
     display: block;
 }
 
-#backgroundWriting{
+#backgroundWriting1{
     font-size: 150px;
     position: fixed;
     text-align: center;
     z-index: 0;
-    top: 150px;
+    top: 60px;
+    color: white;
+}
+#backgroundWriting2{
+    font-size: 60px;
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+    left: 100px;
+    top: 500px;
     color: white;
 }
 
@@ -50,5 +85,5 @@ body{
     text-align: center;
     position: relative;
     top: 150px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }

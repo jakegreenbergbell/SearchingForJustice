@@ -11,6 +11,7 @@ td{
     text-align: center;
     width: 700px;
     left: 350px;
+    color: black;
     padding: 0px;
 }
 #mask{
@@ -30,6 +31,15 @@ img{
     position: relative;
     z-index: 0;
 }
+
+/*img:hover{*/
+    /*height: 209px;*/
+    /*right: 5px;*/
+    /*width: 216px;*/
+    /*padding: -5px;*/
+    /*top: -10px;*/
+    /*position: static;*/
+/*}*/
 
 th{
     width: 60px;
@@ -87,3 +97,12 @@ body{
     top: 150px;
     margin-bottom: 70px;
 }
+
+#name{
+    font-size: 40px;
+}
+
+#years{
+    font-size: 100px;
+}
+

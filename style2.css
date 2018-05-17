@@ -1,0 +1,52 @@
+body{
+    background-color: darkred;
+    color: lightgray;
+}
+
+#credit{
+    color: darkgrey;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    margin-bottom: 70px;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 20px;
+}
+
+#homePage{
+    border-radius: 20px;
+    height: 60px;
+    width: 150px;
+    left: 620px;
+    font-size: 20px;
+    background-color: darkgrey;
+    top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.donate{
+    border-radius: 20px;
+    height: 60px;
+    width: 150px;
+    left: 30px;
+    font-size: 20px;
+    background-color: darkgrey;
+    position: relative;
+    justify-content: center;
+}
+
+th{
+    padding:30px;
+    font-size: 30px;
+}
+
+td{
+    padding-left: 30px;
+    padding-right: 50px;
+    text-indent: 30px;
+}

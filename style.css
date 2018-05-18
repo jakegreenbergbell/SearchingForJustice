@@ -24,8 +24,8 @@ td{
 }
 
 img{
-    height: 199px;
-    width: 206px;
+    height: 28vh;
+    width: 14.3vw;
     display: none;
     position: relative;
     z-index: 0;
@@ -43,21 +43,21 @@ th{
 }
 
 #backgroundWriting1{
-    font-size: 150px;
+    font-size: 20vh;
     position: fixed;
     text-align: center;
     z-index: 0;
     top: 60px;
-    color: white;
+    color: lightblue;
 }
 #backgroundWriting2{
-    font-size: 60px;
+    font-size: 10vh;
     position: fixed;
     text-align: center;
     z-index: 1;
     left: 100px;
     top: 500px;
-    color: white;
+    color: lightblue;
 }
 
 #allImg {
@@ -67,6 +67,8 @@ th{
 
 body{
     background-color: darkred;
+    height: 100vh;
+    width: 100vw;
 }
 
 #moreInfo{

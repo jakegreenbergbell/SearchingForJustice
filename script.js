@@ -17,16 +17,7 @@ $(document).ready(function(){
 
     });
 
-    $("img").on("mouseover", function(){
-       //$(this).animate({"width": "226px", "height": "219px"}, 200);
-        $(this).animate({"bottom": "15px"}, 400);
 
-    });
-    $("img").on("mouseleave", function() {
-        //$(this).animate({"width": "206px", "height": "199px"}, 200);
-        $(this).animate({"bottom": "0px"}, 300);
-
-    });
 });
 
 
@@ -35,5 +26,3 @@ function Person(name, years, crime){
     this.years = years;
     this.crime = crime;
 }
-
-var GussieEvans = new Person();

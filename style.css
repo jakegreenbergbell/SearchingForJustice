@@ -58,7 +58,7 @@ th{
     text-align: center;
     z-index: 0;
     top: 60px;
-    color: white;
+    color: lightblue;
 }
 #backgroundWriting2{
     font-size: 60px;
@@ -67,7 +67,7 @@ th{
     z-index: 1;
     left: 100px;
     top: 500px;
-    color: white;
+    color: lightblue;
 }
 
 #allImg {

@@ -31,14 +31,8 @@ $(document).ready(function(){
 });
 
 
-function Person(name, years, crime){
+function PERSON(name, years, crime){
     this.name = name;
     this.years = years;
     this.crime = crime;
 }
-
-var AnthonyGraves = new Person("Anthony Graves", 18, "convicted of murdering a family of six people");
-var AnthonyHinton = new Person("Anthony Ray Hinton", 28,"wrongly convicted of the murders of two restaurant workers in Birmingham, Alabama in 1985" );
-var CurtisMccarty = new Person("Curtis Edward McCarty", 21, "for a 1982 Oklahoma City murder he didn’t commit");
-var DerralWayneHodgkins = Person("Derral Wayne Hodgkins", 9, "Murder of friend Teresa Lodge");
-var DerrickJamison = Person("Derrick Jamison", 20, "falsely testified against that he had committed the murder");

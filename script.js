@@ -1,4 +1,13 @@
 $(document).ready(function(){
+    peopleArray = [];
+
+    $.getJSON("people.json", function(data){
+        for(var i = 0; i < data.length; i++){
+            var newPerson = new PERSON(data[i]);
+            peopleArray.push(newPerson);
+        }
+        console.log(peopleArray)
+    });
     $("img").fadeIn(4000);
     $("#credit").fadeIn(3000);
     $("#moreInfo").fadeIn(3000);
@@ -8,6 +17,7 @@ $(document).ready(function(){
 
     $("img").on("click", function (){
         $(this).val();
+
         $("#bioTable").show();
         $("#mask").show();
     });
@@ -31,8 +41,9 @@ $(document).ready(function(){
 });
 
 
-function PERSON(name, years, crime){
-    this.name = name;
-    this.years = years;
-    this.crime = crime;
+
+function PERSON(data){
+    this.name = data.name;
+    this.years = data.years;
+    this.biography = data.biography;
 }

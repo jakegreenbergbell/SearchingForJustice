@@ -3,8 +3,8 @@ $(document).ready(function(){
 
     $.getJSON("people.json", function(data){
         for(var i = 0; i < data.length; i++){
-            var newPerson = new PERSON(data[i]);
-            peopleArray.push(newPerson);
+            peopleArray.push(data[i]);
+
         }
         console.log(peopleArray)
     });
@@ -16,8 +16,13 @@ $(document).ready(function(){
 
 
     $("img").on("click", function (){
-        $(this).val();
-
+        var parent = $(this).attr("tabindex");
+        console.log($(this));
+        console.log(parent);
+        var person = peopleArray[parent];
+        $("#name").text(person.name);
+        $("#years").text(person.years);
+        $("#bio").text(person.biography);
         $("#bioTable").show();
         $("#mask").show();
     });
@@ -39,11 +44,3 @@ $(document).ready(function(){
 
     });
 });
-
-
-
-function PERSON(data){
-    this.name = data.name;
-    this.years = data.years;
-    this.biography = data.biography;
-}

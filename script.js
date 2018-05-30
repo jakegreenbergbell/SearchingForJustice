@@ -20,9 +20,13 @@ $(document).ready(function(){
         console.log($(this));
         console.log(parent);
         var person = peopleArray[parent];
+        console.log(person.name);
+        var nameNoSpace = person.name.split(' ').join('').toLowerCase();
+        var imgString = "img/zoom/" + nameNoSpace + ".jpg";
         $("#name").text(person.name);
         $("#years").text(person.years);
         $("#bio").text(person.biography);
+        $("#zoomIMG").attr("src", imgString);
         $("#bioTable").show();
         $("#mask").show();
     });
